@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ACq-s0-kcV">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,109 +9,85 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Page View Controller-->
+        <scene sceneID="2Hk-dZ-Vvw">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="abstractionApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sBj-ee-x15">
-                                <rect key="frame" x="41" y="35" width="292" height="469"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="469" id="pNq-QB-Wdo"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opJ-Dz-rg3">
-                                <rect key="frame" x="166" y="566" width="43" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="opJ-Dz-rg3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="166" id="7NA-TW-IMn"/>
-                            <constraint firstItem="opJ-Dz-rg3" firstAttribute="top" secondItem="sBj-ee-x15" secondAttribute="bottom" constant="62" id="Sb6-94-MeD"/>
-                            <constraint firstItem="sBj-ee-x15" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wp0-HL-50G"/>
-                            <constraint firstItem="sBj-ee-x15" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="f1P-v1-mGR"/>
-                            <constraint firstItem="opJ-Dz-rg3" firstAttribute="centerX" secondItem="sBj-ee-x15" secondAttribute="centerX" id="int-IO-nCG"/>
-                            <constraint firstItem="sBj-ee-x15" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="xzV-rc-yQX"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="ACq-s0-kcV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O2b-GS-mUi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="348" y="134"/>
+            <point key="canvasLocation" x="2286" y="-572"/>
         </scene>
-        <!--View Controller-->
+        <!--SwiftViewController-->
         <scene sceneID="nff-Lh-t87">
             <objects>
-                <viewController id="DOO-5h-JKI" customClass="ViewController" customModule="abstractionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SwiftViewController" title="SwiftViewController" id="DOO-5h-JKI" customClass="ViewController" customModule="abstractionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YcT-79-oLQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a52-Q8-E92">
-                                <rect key="frame" x="41" y="35" width="292" height="469"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="469" id="R3a-YV-baT"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vV-iY-hpY">
-                                <rect key="frame" x="166" y="566" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lI5-3f-mER">
+                                <rect key="frame" x="40.333333333333258" y="31.666666666666742" width="292" height="604"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift" translatesAutoresizingMaskIntoConstraints="NO" id="a52-Q8-E92">
+                                        <rect key="frame" x="0.0" y="0.0" width="292" height="469"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="469" id="R3a-YV-baT"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swit is the next for abstraction because it is the most similar to language." textAlignment="center" lineBreakMode="headTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vV-iY-hpY">
+                                        <rect key="frame" x="0.0" y="469" width="292" height="135"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="135" id="ZPg-W6-ab4"/>
+                                            <constraint firstAttribute="width" constant="292" id="p7W-fd-eJ0"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="a52-Q8-E92" firstAttribute="centerX" secondItem="2vV-iY-hpY" secondAttribute="centerX" id="Qbq-uQ-m25"/>
-                            <constraint firstItem="a52-Q8-E92" firstAttribute="leading" secondItem="kKh-UP-8XS" secondAttribute="leading" constant="41" id="RVo-BZ-HUJ"/>
-                            <constraint firstItem="2vV-iY-hpY" firstAttribute="top" secondItem="a52-Q8-E92" secondAttribute="bottom" constant="62" id="csm-Mp-62j"/>
-                            <constraint firstItem="a52-Q8-E92" firstAttribute="centerX" secondItem="YcT-79-oLQ" secondAttribute="centerX" id="hG2-Dt-7zM"/>
-                            <constraint firstItem="a52-Q8-E92" firstAttribute="top" secondItem="kKh-UP-8XS" secondAttribute="top" constant="15" id="yzX-ZB-WVb"/>
-                        </constraints>
+                        <color key="backgroundColor" red="1" green="0.12158503463264159" blue="0.083497741015937987" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="kKh-UP-8XS"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="37x-an-ltA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="993" y="134"/>
+            <point key="canvasLocation" x="992.79999999999995" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--BlockViewController-->
         <scene sceneID="xZK-SZ-PNP">
             <objects>
-                <viewController id="cuT-Ot-rLU" customClass="ViewController" customModule="abstractionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlockViewController" title="BlockViewController" id="cuT-Ot-rLU" customClass="ViewController" customModule="abstractionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N9r-cU-9ua">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1dT-y4-U0b">
-                                <rect key="frame" x="41" y="35" width="292" height="469"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="469" id="mrg-K6-DzS"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRJ-Kc-1Up">
-                                <rect key="frame" x="166" y="566" width="43" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dMD-2N-vOn">
+                                <rect key="frame" x="40.999999999999545" y="31.666666666666742" width="292" height="604"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="block" translatesAutoresizingMaskIntoConstraints="NO" id="CrX-4T-kns">
+                                        <rect key="frame" x="0.0" y="0.0" width="292" height="469"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="469" id="WNE-da-IHu"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Block code is after that because it uses parts of language but is more chunky and fragmented than swift." textAlignment="center" lineBreakMode="headTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkd-fm-Ebl">
+                                        <rect key="frame" x="0.0" y="469" width="292" height="135"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="292" id="Qos-L6-TaZ"/>
+                                            <constraint firstAttribute="height" constant="135" id="e6j-ht-kEx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="hRJ-Kc-1Up" firstAttribute="leading" secondItem="2Rs-3s-yrs" secondAttribute="leading" constant="166" id="71w-qN-MJA"/>
-                            <constraint firstItem="1dT-y4-U0b" firstAttribute="centerX" secondItem="N9r-cU-9ua" secondAttribute="centerX" id="9RZ-IX-oX7"/>
-                            <constraint firstItem="1dT-y4-U0b" firstAttribute="top" secondItem="2Rs-3s-yrs" secondAttribute="top" constant="15" id="UEK-yk-77o"/>
-                            <constraint firstItem="hRJ-Kc-1Up" firstAttribute="centerX" secondItem="1dT-y4-U0b" secondAttribute="centerX" id="cE3-Ns-EJd"/>
-                            <constraint firstItem="hRJ-Kc-1Up" firstAttribute="top" secondItem="1dT-y4-U0b" secondAttribute="bottom" constant="62" id="ipA-rk-kbu"/>
-                            <constraint firstItem="1dT-y4-U0b" firstAttribute="leading" secondItem="2Rs-3s-yrs" secondAttribute="leading" constant="41" id="zX6-hx-SNv"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.09478762900751625" green="1" blue="0.071286393288836014" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="2Rs-3s-yrs"/>
                     </view>
                 </viewController>
@@ -119,36 +95,38 @@
             </objects>
             <point key="canvasLocation" x="1631" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--ByteCodeViewController-->
         <scene sceneID="TsL-to-ZWk">
             <objects>
-                <viewController id="lQh-Zr-3tn" customClass="ViewController" customModule="abstractionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ByteCodeViewController" title="ByteCodeViewController" id="lQh-Zr-3tn" customClass="ViewController" customModule="abstractionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LYr-z6-qXE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mO2-tc-jp4">
-                                <rect key="frame" x="41" y="35" width="292" height="469"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="469" id="BqH-XV-hMQ"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJB-tf-mWR">
-                                <rect key="frame" x="166" y="566" width="43" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="G0Q-yq-w3K">
+                                <rect key="frame" x="40.333333333332803" y="31.666666666666742" width="292" height="604"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="object code" translatesAutoresizingMaskIntoConstraints="NO" id="UCL-te-bG7">
+                                        <rect key="frame" x="0.0" y="0.0" width="292" height="469"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="469" id="TmH-Bh-7fa"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Object code is next because it starts to transition from language to actual code that computers can read better than humans." textAlignment="center" lineBreakMode="headTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgF-tA-Kag">
+                                        <rect key="frame" x="0.0" y="469" width="292" height="135"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="292" id="QaA-9H-uki"/>
+                                            <constraint firstAttribute="height" constant="135" id="hnE-V7-VwX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="XJB-tf-mWR" firstAttribute="leading" secondItem="SrC-TM-ZZv" secondAttribute="leading" constant="166" id="7w3-oS-ne7"/>
-                            <constraint firstItem="mO2-tc-jp4" firstAttribute="leading" secondItem="SrC-TM-ZZv" secondAttribute="leading" constant="41" id="7wf-co-KAq"/>
-                            <constraint firstItem="mO2-tc-jp4" firstAttribute="top" secondItem="SrC-TM-ZZv" secondAttribute="top" constant="15" id="AYs-ZN-Vfk"/>
-                            <constraint firstItem="XJB-tf-mWR" firstAttribute="centerX" secondItem="mO2-tc-jp4" secondAttribute="centerX" id="Gdy-GQ-PcO"/>
-                            <constraint firstItem="mO2-tc-jp4" firstAttribute="centerX" secondItem="LYr-z6-qXE" secondAttribute="centerX" id="XJX-p8-29y"/>
-                            <constraint firstItem="XJB-tf-mWR" firstAttribute="top" secondItem="mO2-tc-jp4" secondAttribute="bottom" constant="62" id="ky6-Ga-w9E"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.99466503506597836" green="1" blue="0.1221654876864855" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="SrC-TM-ZZv"/>
                     </view>
                 </viewController>
@@ -156,36 +134,39 @@
             </objects>
             <point key="canvasLocation" x="2287" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--BinaryViewController-->
         <scene sceneID="ehu-kg-8nk">
             <objects>
-                <viewController id="mnb-9F-aos" customClass="ViewController" customModule="abstractionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BinaryViewController" title="BinaryViewController" id="mnb-9F-aos" customClass="ViewController" customModule="abstractionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ESh-9A-rJF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7E8-YI-t4N">
-                                <rect key="frame" x="41" y="35" width="292" height="469"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="469" id="3WW-ZD-Eu2"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXT-A3-WSh">
-                                <rect key="frame" x="166" y="566" width="43" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BWx-gR-lav">
+                                <rect key="frame" x="40.666666666667425" y="31.666666666666742" width="292" height="604"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="binary" translatesAutoresizingMaskIntoConstraints="NO" id="3Pf-vH-wdH">
+                                        <rect key="frame" x="0.0" y="0.0" width="292" height="469"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="469" id="jn4-D1-Okh"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="headTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKZ-NI-xb3">
+                                        <rect key="frame" x="0.0" y="469" width="292" height="135"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="292" id="gpE-If-HjO"/>
+                                            <constraint firstAttribute="height" constant="135" id="vxL-Gi-aVy"/>
+                                        </constraints>
+                                        <string key="text">Binary is the worst at abstraction because it is very difficult for humans to read and write productively. Computers are very very good at this one despite it being the least like a language.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="aXT-A3-WSh" firstAttribute="top" secondItem="7E8-YI-t4N" secondAttribute="bottom" constant="62" id="5bv-5i-ec3"/>
-                            <constraint firstItem="7E8-YI-t4N" firstAttribute="leading" secondItem="pnF-Yp-Qs1" secondAttribute="leading" constant="41" id="KL4-VL-GEp"/>
-                            <constraint firstItem="aXT-A3-WSh" firstAttribute="centerX" secondItem="7E8-YI-t4N" secondAttribute="centerX" id="OAD-Fy-gsQ"/>
-                            <constraint firstItem="7E8-YI-t4N" firstAttribute="top" secondItem="pnF-Yp-Qs1" secondAttribute="top" constant="15" id="Qg4-sB-4jD"/>
-                            <constraint firstItem="aXT-A3-WSh" firstAttribute="leading" secondItem="pnF-Yp-Qs1" secondAttribute="leading" constant="166" id="oAL-gr-fx7"/>
-                            <constraint firstItem="7E8-YI-t4N" firstAttribute="centerX" secondItem="ESh-9A-rJF" secondAttribute="centerX" id="pdl-Gt-P0T"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.10600196959302488" green="0.18104625934252627" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="pnF-Yp-Qs1"/>
                     </view>
                 </viewController>
@@ -193,5 +174,51 @@
             </objects>
             <point key="canvasLocation" x="2934" y="134"/>
         </scene>
+        <!--LogicalGateViewController-->
+        <scene sceneID="L23-ad-ttx">
+            <objects>
+                <viewController storyboardIdentifier="LogicalGateViewController" title="LogicalGateViewController" id="FDD-Fs-BKV" customClass="ViewController" customModule="abstractionApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rQ9-4R-tym">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7Gt-7W-sbt">
+                                <rect key="frame" x="41.33333333333394" y="31.666666666666742" width="292" height="604"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logic" translatesAutoresizingMaskIntoConstraints="NO" id="P4d-If-HYC">
+                                        <rect key="frame" x="0.0" y="0.0" width="292" height="469"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="469" id="WEz-eb-Zis"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The logic gate is how a computer understands binary and thus is the least ike a language and thus the least abstract." textAlignment="center" lineBreakMode="headTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gr3-rh-ZoW">
+                                        <rect key="frame" x="0.0" y="469" width="292" height="135"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="292" id="Dr4-0W-Oo6"/>
+                                            <constraint firstAttribute="height" constant="135" id="X3z-Kd-lQ1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97465527126054563" green="0.22997250000289138" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Gsy-U6-pHP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H76-UC-aQH" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3654" y="134"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="binary" width="288" height="175"/>
+        <image name="block" width="510" height="500"/>
+        <image name="logic" width="744" height="795"/>
+        <image name="object code" width="347" height="145"/>
+        <image name="swift" width="486" height="517"/>
+    </resources>
 </document>
