@@ -12,7 +12,6 @@
 		FB670CE021B6D49800F37E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB670CDF21B6D49800F37E0A /* AppDelegate.swift */; };
 		FB670CE521B6D49800F37E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB670CE321B6D49800F37E0A /* Main.storyboard */; };
 		FB670CE721B6D49D00F37E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB670CE621B6D49D00F37E0A /* Assets.xcassets */; };
-		FB670CEA21B6D49D00F37E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB670CE821B6D49D00F37E0A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		FB670CDF21B6D49800F37E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB670CE421B6D49800F37E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB670CE621B6D49D00F37E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FB670CE921B6D49D00F37E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB670CEB21B6D49D00F37E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				FB670CE321B6D49800F37E0A /* Main.storyboard */,
-				FB670CE821B6D49D00F37E0A /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,7 +146,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB670CEA21B6D49D00F37E0A /* LaunchScreen.storyboard in Resources */,
 				FB670CE721B6D49D00F37E0A /* Assets.xcassets in Resources */,
 				FB670CE521B6D49800F37E0A /* Main.storyboard in Resources */,
 			);
@@ -177,14 +173,6 @@
 				FB670CE421B6D49800F37E0A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FB670CE821B6D49D00F37E0A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB670CE921B6D49D00F37E0A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
